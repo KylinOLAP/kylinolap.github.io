@@ -192,30 +192,33 @@ a:hover, a:focus {
 	
 }
 
-
-#getstart {
+#download {
 	text-align: center;
 	padding:20px;
 	font-size:16px;
 	font-weight: 500;
 	width: 150px;
-	margin: 10px auto;
+	margin: 30px auto;
 	padding: 0.6em 0.8em;
-	background: rgba(38,121,244,0.8);
-	/*border: 1px solid #2679f4;	*/
+	color: #333;
+	/*background: rgba(38,121,244,0.8);*/
+	border: 1px solid #333;	
    -webkit-animation-delay: 1s;
    -ms-animation-delay: 1s;
     -moz-animation-delay: 1s;
 	-o-animation-delay: 1s;
 	animation-delay: 1s;
-	border-radius:3px;
+   text-shadow:none;
+   text-transform:uppercase;
+	transparent!important
 }
-#getstart a{
-	color: #fff;
+#download a{
+	color: #333;
 	}
 
-#getstart:hover {
-	/*border: 1px solid #2062c4;*/
+#download:hover {
+	border: 1px solid #5c5c5c;
+	opacity: 0.8;
 }
 /*********************************************************************
  
