@@ -1,4 +1,12 @@
 jQuery(document).ready(function ($) {
+	
+	
+	  $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+	
+	
 	 //top nav
     var my_nav = $('.navbar-sticky');
     var sticky_navigation_offset_top = my_nav.offset().top;
@@ -52,6 +60,9 @@ jQuery(document).ready(function ($) {
         }
 
     }
+	
+	
+	
 	
 	//document page 
 	$( "#content-container" ).load("docs/intro-content.html");
