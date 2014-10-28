@@ -83,11 +83,11 @@ jQuery(document).ready(function ($) {
 //	};
 
 
-$("#drawer-icon").click(function(){
-	$(this).toggleClass('icon-position');
-	});
+	
 
-	console.log($(".sidr-open"));
+$("#responsive-menu-button").click(function(){
+	$("#drawer-icon").toggleClass('icon-position');
+	});
 
     $(document).scroll(function () {
         sticky_navigation();
