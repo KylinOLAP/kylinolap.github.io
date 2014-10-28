@@ -1,11 +1,6 @@
 jQuery(document).ready(function ($) {
 	
-	
-	  $('#responsive-menu-button').sidr({
-      name: 'sidr-main',
-      source: '#navigation'
-    });
-	
+
 	
 	 //top nav
     var my_nav = $('.navbar-sticky');
@@ -23,6 +18,14 @@ jQuery(document).ready(function ($) {
             my_nav.removeClass('stick');
         }
     };
+
+	
+	  $('#responsive-menu-button').sidr({
+      name: 'sidr-main',
+      source: '#navigation'
+    });
+	
+	
 
 
     //parallax effect
@@ -75,9 +78,16 @@ jQuery(document).ready(function ($) {
 		$(this).siblings().css("background-color", "transparent")
 		});
  
+//if($('.sidr-inner').is(":hidden") ){
+	//$("#drawer-icon").css('left', '0px');
+//	};
 
 
+$("#drawer-icon").click(function(){
+	$(this).toggleClass('icon-position');
+	});
 
+	console.log($(".sidr-open"));
 
     $(document).scroll(function () {
         sticky_navigation();

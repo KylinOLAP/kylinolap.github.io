@@ -629,8 +629,16 @@ ul.icons
 	padding: 4px 6px;
 	border: 1px solid #2679f4;
 	border-radius: 3px;
-	margin: 10px;
+	margin: 1px 10px;
+    position:fixed;
+	top:10px;
+	left:0px;
+	z-index:99999;
 }
+
+.icon-position{
+	left:260px !important;
+	}
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {
@@ -640,12 +648,12 @@ ul.icons
 }
 
 
-#mobile-header {
+#responsive-menu-button {
     display: none;
 }
 @media only screen and (max-width: 767px){
-    #mobile-header {
-        display: block;
+    #responsive-menu-button {
+        display: block !important;
 		
     }
 }
