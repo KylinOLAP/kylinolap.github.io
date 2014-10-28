@@ -624,16 +624,19 @@ ul.icons
 	margin: 0;
 }
 
+#responsive-menu-button{
+	
+	top:30px;
+	left:20px;
+	z-index:99999;
+	}
 #drawer-icon{
 	font-size: 20px;
 	padding: 4px 6px;
 	border: 1px solid #2679f4;
 	border-radius: 3px;
-	margin: 1px 10px;
-    position:fixed;
-	top:10px;
-	left:0px;
-	z-index:99999;
+	margin: 8px 10px;
+	display:block !important;
 }
 
 .icon-position{

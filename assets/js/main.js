@@ -85,9 +85,9 @@ jQuery(document).ready(function ($) {
 
 	
 
-$("#responsive-menu-button").click(function(){
-	$("#drawer-icon").toggleClass('icon-position');
-	});
+//$("#responsive-menu-button").click(function(){
+	//$("#drawer-icon").toggleClass('icon-position');
+	//});
 
     $(document).scroll(function () {
         sticky_navigation();
