@@ -637,11 +637,7 @@ ol.style1 {
 	display: list-item;
 	border-bottom: 1px solid #d5d4d4;
 }
-.navbar-toggle:focus {
-	background-color: transparent !important;
-}
-
-.navbar-toggle:active {
-	background-color: transparent;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent !important;
 }
 }
