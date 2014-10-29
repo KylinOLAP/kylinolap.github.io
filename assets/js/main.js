@@ -1,32 +1,13 @@
 jQuery(document).ready(function ($) {
 	
-
 	
-	 //top nav
-    var my_nav = $('.navbar-sticky');
-    var sticky_navigation_offset_top = my_nav.offset().top;
-
-
-    var sticky_navigation = function () {
-        //  current vertical position from the top
-        var scroll_top = $(window).scrollTop();
-
-
-        if (scroll_top > sticky_navigation_offset_top) {
-            my_nav.addClass('stick');
-        } else {
-            my_nav.removeClass('stick');
-        }
-    };
-
-	
-	  $('#responsive-menu-button').sidr({
-      name: 'sidr-main',
-      source: '#navigation'
+    $('#nav-wrapper').height($("#nav").height());
+    
+    $('#nav').affix({
+        offset: { top: $('#nav').offset().top }
     });
 	
 	
-
 
     //parallax effect
     var parallax_animation = function () {
@@ -78,19 +59,12 @@ jQuery(document).ready(function ($) {
 		$(this).siblings().css("background-color", "transparent")
 		});
  
-//if($('.sidr-inner').is(":hidden") ){
-	//$("#drawer-icon").css('left', '0px');
-//	};
 
 
-	
 
-//$("#responsive-menu-button").click(function(){
-	//$("#drawer-icon").toggleClass('icon-position');
-	//});
 
     $(document).scroll(function () {
-        sticky_navigation();
+        
         parallax_animation();
 		image_animation();
        
