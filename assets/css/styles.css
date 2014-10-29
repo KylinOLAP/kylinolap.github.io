@@ -638,7 +638,7 @@ ol.style1 {
 	border-bottom: 1px solid #d5d4d4;
 }
 .navbar-toggle:focus {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
 .navbar-toggle:active {
