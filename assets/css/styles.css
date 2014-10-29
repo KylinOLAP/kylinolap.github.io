@@ -625,6 +625,11 @@ ul.icons
 }
 
 
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color:transparent;
+}
+
 #nav.affix {
     position: fixed;
     top: 0;
@@ -644,7 +649,7 @@ border-bottom:1px solid #d5d4d4;
 
 background-color:#fff;
 opacity:.95;
-height:60px
+
 }
 
 .navbar-nav>li>a{
@@ -657,9 +662,9 @@ background-color: transparent;
 
 }
 
-.navbar-toggle {
-margin-top: 12px;
-}
+
+
+
 
 #drawer-icon{
 	font-size: 20px;
@@ -687,7 +692,15 @@ margin-top: 12px;
 	}*/
 	
 	#nav{
-		border-bottom:none;}
+		background-color:transparent;}
+	
+	#head{
+		margin-top:40px;
+		}
+	
+	#nav-wrapper{
+		position:fixed;
+		top:0px;}
 	
 	.navbar-nav{
 		background-color:#fff;
@@ -697,4 +710,6 @@ margin-top: 12px;
 		.navbar-nav>li{
 		display:list-item;
 		border-bottom:1px solid #d5d4d4;}
+		
+	
 }
