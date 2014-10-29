@@ -640,4 +640,8 @@ ol.style1 {
 .navbar-toggle:focus {
 	background-color: transparent;
 }
+
+.navbar-toggle:active {
+	background-color: transparent;
+}
 }
