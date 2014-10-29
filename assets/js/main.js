@@ -1,12 +1,7 @@
 jQuery(document).ready(function ($) {
 	
 	
-    $('#nav-wrapper').height($("#nav").height());
-    
-    $('#nav').affix({
-        offset: { top: $('#nav').offset().top }
-    });
-	
+  
 	
 
     //parallax effect
@@ -19,6 +14,8 @@ jQuery(document).ready(function ($) {
             }
         });
     }
+
+
 
 
    // page elements animation 
@@ -59,7 +56,12 @@ jQuery(document).ready(function ($) {
 		$(this).siblings().css("background-color", "transparent")
 		});
  
-
+  $('#nav-wrapper').height($("#nav").height());
+    
+    $('#nav').affix({
+        offset: { top: $('#nav').offset().top }
+    });
+	
 
 
 

@@ -692,7 +692,7 @@ background-color: transparent;
 	}*/
 	
 	#nav{
-		background-color:transparent;}
+		background-color:transparent !important;}
 	
 	#head{
 		margin-top:40px;
@@ -710,6 +710,11 @@ background-color: transparent;
 		.navbar-nav>li{
 		display:list-item;
 		border-bottom:1px solid #d5d4d4;}
+		
+		
+		.navbar-toggle:focus {
+background-color: none;
+}
 		
 	
 }
